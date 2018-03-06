@@ -1,5 +1,6 @@
 package com.uitnetwork.springbootwithprotobuf
 
+import com.uitnetwork.proto.Person
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.springframework.boot.test.context.SpringBootTest
@@ -9,8 +10,8 @@ import org.springframework.test.context.junit4.SpringRunner
 @SpringBootTest
 class SpringBootWithProtobufApplicationTests {
 
-	@Test
-	fun contextLoads() {
-	}
+    @Test
+    fun contextLoads() {
+    }
 
 }
