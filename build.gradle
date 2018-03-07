@@ -64,8 +64,7 @@ sourceSets {
 protobuf {
     protoc {
 //        USE DEFAULT ONE FROM SYSTEM
-//        artifact = 'com.google.protobuf:protoc:3.5.1'
-//        path = ''
+        artifact = 'com.google.protobuf:protoc:3.5.1-1'
     }
 }
 
