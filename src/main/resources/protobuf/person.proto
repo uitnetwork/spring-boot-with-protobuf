@@ -3,10 +3,13 @@ syntax = "proto3";
 package uitnetwork;
 
 option java_package = "com.uitnetwork.proto";
+option java_outer_classname = "PersonProto";
 
 
-message Test {
+message Person {
     string name = 1;
-
+    string address = 2;
+    string phone = 3;
+    int32 age = 4;
 }
 
