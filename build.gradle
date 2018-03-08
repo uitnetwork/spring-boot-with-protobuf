@@ -49,6 +49,7 @@ dependencies {
     compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     compile("org.jetbrains.kotlin:kotlin-reflect")
     compile 'com.google.protobuf:protobuf-java:3.5.1'
+    compile 'io.github.microutils:kotlin-logging:1.4.9'
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
